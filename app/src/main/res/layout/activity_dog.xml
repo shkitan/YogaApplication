@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dog">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="1000dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="-5dp"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/dog" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Instructions:"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="How to do it\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="left"
+                android:text="From all fours, walk your hands 6\n inches in front of you.\nTuck your toes and lift your hips up and\n back to lengthen your spine.\n If your hamstrings are tight, keep your\nknees bent in order to bring your\nweight back into the legs.\n"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="The benefits\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:gravity="left"
+                android:text="This classic pose opens your shoulders,\n lengthens your spine, and stretches your\n hamstrings.\n Since your head is below your heart,\n the mild inversion creates a calming\n effect."
+                android:textSize="20dp"/>
+
+<!--                android:text="❖ assume the starting position for Cat Stretch and look forward-->
+<!--            "❖ inhale, raise your hips up and\n lower the head\n\n\n\n"-->
+<!--                +"between the arms so that the back and legs form two\n-->
+<!--             sides of a triangle\n-->
+<!--             ❖ keep the knees and hands straight, gaze on the\n-->
+<!--             floor\n-->
+<!--             ❖ push the heels and head towards the floor\n-->
+<!--             ❖ hold the pose for 5 breaths\n-->
+<!--             ❖ release the pose, relax in the Childʼs Pose\n-->
+<!--             "-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

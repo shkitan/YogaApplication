@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cobra">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="-5dp"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/cobra" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Instructions:"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="How to do it\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:gravity="left"
+                android:text="inhale, keep your hands beside your\nchest and slide the chest forward and raise first\nthe head, the shoulders, then, straightening the elbows\narch the back into the Cobra Pose\nthis will lower the hips and the buttocks\n to thefloor\nbend the head back and look upward\n"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="The benefits\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:gravity="left"
+                android:text="This pose helps improve concentration and your ability\nto balance by strengthening the arches of the feet\nand the outer hips."
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

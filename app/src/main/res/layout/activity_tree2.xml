@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tree">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="-5dp"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/tree" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Instructions:"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="How to do it\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:gravity="left"
+                android:text="Start in Mountain Pose. Find a fixed point\nin front of you and stare at it\nto help you balance.\nAs you inhale, shift the weight into your\nleft foot and lift your right foot an\n inch off the floor.\n Using your right hand, bring the foot to\nyour shin or inner thigh.\nAvoid placing your foot directly on the knee.\nAs you exhale, ground through the standing leg\nand lengthen through the crown of your head.\nBring your palms to touch in front\nof your sternum into prayer hands.\n"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="The benefits\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:gravity="left"
+                android:text="This pose helps improve concentration and your ability to balance by strengthening the arches of the feet and the outer hips."
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

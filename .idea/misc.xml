@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Michal/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_aboutapp.xml" value="0.1" />
+        <entry key="..\:/Users/Michal/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_cobra.xml" value="0.1" />
+        <entry key="..\:/Users/Michal/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_tree2.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/drawable/backgroundcrop.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/drawable/btn.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/drawable/ic_start.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_aboutapp.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_aboutus.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_cobra.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_dog.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_guide.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_main2.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_splashscreenok.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_tree.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_tree2.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/activity_warrior_two.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/layout/rv_item.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/menu/menue_item.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplication5555/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplicationFinish/app/src/main/res/layout/activity_aboutapp.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/shkit/AndroidStudioProjects/MyApplicationFinish/app/src/main/res/layout/activity_aboutus.xml" value="0.12952898550724637" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
