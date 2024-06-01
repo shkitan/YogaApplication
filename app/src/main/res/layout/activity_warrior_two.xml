@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WarriorTwo">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="-5dp"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/warrior2front" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Instructions:"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="How to do it\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:gravity="left"
+                android:text="tand with feet wide, 3–4 feet apart.\n Shift your right heel out so your toes are\n pointing slightly inward.\n Turn your left foot out 90 degrees.\n Line up your left heel with the arch of\n your right foot.\n Bend your left knee to a 90-degree angle,\n keeping the knee in line with the second\n toe to protect the knee joint.\n Stretch through your straight back leg and ground\n down into the back foot.\nOn an inhale, bring arms to a T at shoulder height.\n Draw your shoulder blades down the back.\n Spread your fingers and keep palms facedown.\n Gaze over the front fingers. As you exhale,\n sink deeper into the stretch.\nPro tip:\n To draw your shoulder blades down the back,\n rotate your palms face-up.\n Notice how that shifts your shoulders.\n Once settled, rotate your palms facedown.\n"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:text="The benefits\n"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:gravity="left"
+                android:text="A pose with “warrior” in its name may not sound very zen, but this standing pose can help calm and steady your mind. Tougher than it looks, it also strengthens your legs and ankles while increasing stamina."
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

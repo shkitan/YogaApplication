@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item android:id="@+id/item1"-->
+<!--        android:icon="@drawable/ic_baseline_menu_24"-->
+<!--        android:title="Poses Instractions"-->
+<!--        app:showAsAction="never"/>-->
+    <item android:id="@+id/item2"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="Start Activity"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item3"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="About"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/item4"
+                android:title="About US"
+                app:showAsAction="never"/>
+            <item android:id="@+id/item5"
+                android:title="About App"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+
+</menu>
